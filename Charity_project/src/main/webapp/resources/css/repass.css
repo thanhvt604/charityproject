@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+body{
+	height: 100vh;
+}
+.pass_show {
+	position: relative
+}
+.containerplus{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pass_show .ptxt {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	z-index: 1;
+	color: #f36c01;
+	margin-top: -10px;
+	cursor: pointer;
+	transition: .3s ease all;
+}
+
+.pass_show .ptxt:hover {
+	color: #333333;
+}
+.row{
+	justify-content: center;
+}
+.display{
+	background:linear-gradient(to right, rgba(255, 255, 255, 0.25), rgb(138 134 134 / 25%));
+	border: 1px solid #DDDDDD;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+}
+.message{
+	display: none;
+	font-weight: bold;
+	color: red;
+}
